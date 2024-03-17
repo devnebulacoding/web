@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/926df44843.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Nebula</title>
+    <link rel="icon" href="\img\logoazul.png" type="image/jpg">
+
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <a href="index.html">
+                <img src="\img\logoazul.png" alt="">
+
+            </a>
+            <div class="links">
+                <a href="#" id="link1">Proceso</a>
+                <a href="#" id="link2">Nosotros</a>
+                <a href="#" id="link3">Contacto</a>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#"><i class='bx bx-support'></i></a>
+            <a href="#"><i class='bx bxs-phone'></i></a>
+        </div>
+    </nav>
+
+    <div class="welcome">
+        <div class="information">
+            <h1>Crea tu sitio wéb <br>con <span>Nebula</span></h1>
+            <p>Contar con un sitio web es esencial para que tu empresa esté en línea, muestres tus ofertas y te
+                conectes con clientes, fortaleciendo la imagen de marca y expandiendo tu negocio.</p>
+            <button id="link4">Mas información <i class='bx bx-chevron-down'></i></button>
+        </div>
+        <img src="\img\Green Quote Candle Illustrations Instagram Post.png" alt="">
+    </div>
+
+    <div class="process">
+        <div class="title">
+            <h1>En <span>Nebula</span> créar tu sitio wéb es asi de simple</h1>
+        </div>
+        <div class="targets">
+            <div class="target">
+                <div class="number">1.</div>
+                <h2>Recolección de requisitos</h2>
+                <p>Comenzamos con una reunión para entender las necesidades del cliente, identificar elementos clave y
+                    establecer un cronograma claro para el desarrollo de la web.</p>
+            </div>
+            <div class="target">
+                <div class="number">2.</div>
+                <h2>Diseño y desarrollo</h2>
+                <p>En esta fase desarrollamos, diseñamos y construimos el sitio web para que sea atractivo, funcional y
+                    adaptable a diferentes dispositivos. Implementando funciones clave y garantizando su facilidad de
+                    actualización.</p>
+            </div>
+            <div class="target">
+                <div class="number">3.</div>
+                <h2>Pruebas y entrega</h2>
+                <p>En la etapa de pruebas, aseguramos el funcionamiento en diversos dispositivos y optimizamos la
+                    velocidad. Tras la aprobación del cliente, realizamos la implementación final y proporcionamos la
+                    formación necesaria para la gestión autónoma del contenido.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <img src="\img\Green Quote Candle Illustrations Instagram Post (2).png" alt="">
+        <div class="aboutinformation">
+            <h1>Sobre <span>nosotros</span></h1>
+            <p>En <span>Nebula</span>, nos especializamos en el desarrollo de sitios web impactantes para empresas.
+                Nuestra misión es transformar ideas en experiencias digitales excepcionales, ofreciendo un enfoque
+                personalizado y diseño innovador. Aunque operamos completamente en línea, nuestro compromiso y calidad
+                trascienden las barreras físicas. Estamos listos para llevar tu presencia en línea al siguiente nivel.
+                ¡Hablemos y destaquemos juntos en la web!</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="informationcontactcontainer">
+            <div class="informationcontact">
+                <i class='bx bx-phone'></i>
+                <div class="informationcontactchild">
+                    <h2>Telefono</h2>
+                    <p>3187702388</p>
+                </div>
+            </div>
+            <div class="informationcontact">
+                <i class='bx bx-envelope'></i>
+                <div class="informationcontactchild">
+                    <h2>Correo</h2>
+                    <p>Devnebulacoding@gmail.com</p>
+                </div>
+            </div>
+            <div class="informationcontact">
+                <i class='bx bxl-instagram'></i>
+                <div class="informationcontactchild">
+                    <h2>Instagram</h2>
+                    <p>@Nebula_coding</p>
+                </div>
+            </div>
+        </div>
+        <div class="formquestion">
+            <form class="form" id="form">
+                <p class="form-title">Contacta con nosotros</p>
+                <div class="input-container">
+                    <input type="text" placeholder="Nombre" name="name" required>
+                    <span>
+                    </span>
+                </div>
+                <div class="input-container">
+                    <input type="email" placeholder="Correo" name="email" required>
+                    <span>
+                    </span>
+                </div>
+                <div class="input-container">
+                    <input type="number" placeholder="Telefono" name="phone" required>
+                    <span>
+                    </span>
+                </div>
+                <div class="input-container">
+                    <input type="text" placeholder="Mensaje" name="message" required>
+                </div>
+                <input type="submit" id="button" value="Enviar mensaje" class="submit">
+            </form>
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                emailjs.init('y7KPOVjjXv1C8rpK8')
+            </script>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="sections">
+            <div class="sectionfooter">
+                <h3>Contactanos</h3>
+                <p> <i class="fa-solid fa-phone"></i> 3187702388</p>
+                <p> <i class="fa-solid fa-envelope"></i> Devnebulacoding@gmail.com</p>
+            </div>
+            <div class="sectionfooter">
+                <a href="#">Proceso</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="sectionfooter1">
+                <img src="\img\logoblanco.png" alt="">
+                <div class="social">
+                    <a href="#"> <i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="sectionbottom">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
